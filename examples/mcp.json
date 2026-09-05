@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "x5": {
+      "command": "node",
+      "args": ["C:/path/to/x5-mcp/dist/index.js"],
+      "env": { "X5_ENV_FILE": "C:/path/to/x5-mcp/.env" }
+    }
+  }
+}

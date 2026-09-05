@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+data/
+reports/
+exports/
+docs/*purchases*report*.md
+*-personal-report.md
+*.sqlite*
+*.db*
+coverage/
+*.log
+*.har

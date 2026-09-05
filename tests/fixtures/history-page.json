@@ -1,0 +1,15 @@
+{
+  "data": {
+    "additionalReceiptsResponse": [
+      {
+        "rtlTxnId": "synthetic-001", "created": "2026-08-12T18:30:00+03:00", "codeTc": "D",
+        "amountRegular": "260.00", "amountPromo": "219.98", "storeAddress": "Тестовый магазин",
+        "checkNum": "101", "fiscalNum": "202", "items": [
+          { "pluId": "coffee-001", "name": "Кофе Чёрный", "quantity": "2", "unit": "шт",
+            "priceRegular": "130.00", "pricePromo": "109.99", "priceItem": "219.98", "categoryCode": "test-coffee" }
+        ]
+      }
+    ],
+    "isNewData": true
+  }
+}

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { serveStdio } from '@modelcontextprotocol/server/stdio';
 import { createApp } from './app.js';
 import { createServer } from './mcp/server.js';

@@ -1,9 +1,17 @@
 {
-  "name": "x5-purchases-mcp",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Local X5 Club purchase history and analytics over MCP stdio",
+  "name": "x5-mcp",
+  "version": "0.1.1",
+  "description": "MCP server for local X5 Club purchase history sync, search, and spending analytics in Codex",
   "type": "module",
+  "bin": {
+    "x5-mcp": "dist/index.js"
+  },
+  "keywords": ["mcp", "codex", "x5", "x5club", "receipts", "analytics"],
+  "files": [
+    "dist",
+    "README.md",
+    ".env.example"
+  ],
   "engines": { "node": ">=24 <25" },
   "packageManager": "pnpm@10.33.0",
   "scripts": {
